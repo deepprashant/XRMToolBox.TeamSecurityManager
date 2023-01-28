@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>PKM.XRMToolBox.TeamSecurityManager</id>
+    <version>1.22.333.4444</version>
+    <title>User Security Manager</title>
+    <authors>Nishant Rana, Prashant Maurya</authors>
+    <owners>Nishant Rana, Prashant Maurya</owners>
+    <projectUrl>https://pmaurya.visualstudio.com/XRMToolBox</projectUrl>
+    <iconUrl>https://i0.wp.com/prashantmayur.files.wordpress.com/2018/07/pkm-xrmtoolbox-usersecuritymanager.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Tool for efficiently managing User's security in Microsoft Dynamics 365 Customer Engagement</description>
+    <releaseNotes>
+      This is the second vesion of this tool, it contains following additional features
+      * manage user's field security profile.
+      * view user's security report.
+      * download user's security report.
+      * UI enhancements.
+    </releaseNotes>
+    <copyright>Copyright 2018 Prashant Maurya</copyright>
+    <tags>XrmToolBox Plugin User Security Manager</tags>
+    <dependencies>
+      <dependency id="XrmToolBox" version="1.2018.4.22"/>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\PKM.XRMToolBox.TeamSecurityManager.dll" target="lib\net462\Plugins"></file>
+  </files>
+</package>
